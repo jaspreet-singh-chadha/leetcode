@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         # Find the smallest length string in the passed list
@@ -29,8 +30,9 @@ class Solution:
 
         return min_length_string
 
+
 if __name__ == '__main__':
-    print(Solution().longestCommonPrefix(strs=["flower","flow","flight"]))
+    print(Solution().longestCommonPrefix(strs=["flower", "flow", "flight"]))
     # print(Solution().longestCommonPrefix(strs=["dog","racecar","car"]))
     # print(Solution().longestCommonPrefix(strs=["reflower","flow","flight"]))
     # print(Solution().longestCommonPrefix(strs=["aaa","aa","aaa"]))
