@@ -32,6 +32,7 @@ class Solution:
 
         return min_length_string
 
+
 if __name__ == '__main__':
     # print(Solution().longestCommonPrefix(strs=["flower","flow","flight"]))
     # print(Solution().longestCommonPrefix(strs=["dog","racecar","car"]))
